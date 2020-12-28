@@ -84,7 +84,7 @@ body {
 }
 
 footer {
-  padding: var(--spacing-6) var(--spacing-0);
+  padding: var(--spacing-3) var(--spacing-2);
 }
 
 hr {
@@ -252,6 +252,7 @@ a:focus {
 
 .global-header {
   margin-bottom: var(--spacing-12);
+  text-align: center;
 }
 
 .main-heading {
