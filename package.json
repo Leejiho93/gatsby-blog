@@ -8,8 +8,11 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "antd": "^4.9.4",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
+    "gatsby-plugin-antd": "^2.2.0",
     "gatsby-plugin-feed": "^2.7.0",
     "gatsby-plugin-google-analytics": "^2.5.0",
     "gatsby-plugin-manifest": "^2.6.1",

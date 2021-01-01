@@ -1,8 +1,11 @@
+import 'antd/dist/antd.css';
+import { GithubOutlined } from '@ant-design/icons'
 import React from "react"
 import { Link } from "gatsby"
+import Search  from './searching'
 
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, search, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
@@ -23,12 +26,16 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header} <a rel="noreferrer" target="_blank" href="https://github.com/Leejiho93">a</a></header>
-      <main>{children}</main>
+      <header className="global-header">
+        {header}
+        {search ? <Search /> : null}
+        <a rel="noreferrer" target="_blank" href="https://github.com/Leejiho93"><GithubOutlined style={{ fontSize: '35px', color: '#000000'}}/></a>
+      </header>
+      <main className="global-main">{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        {/* © {new Date().getFullYear()} {` `} */}
+        ©
+        <a href="https://www.gatsbyjs.com">easyho</a>
       </footer>
     </div>
   )
