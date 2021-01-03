@@ -91,7 +91,7 @@ const Searching = (data) => {
         onSearch={onSearch}
         onChange={handleInputChange}
         
-        style={{ maxWidth: '300px', margin: '10px 10px 0' }}
+        style={{ maxWidth: '500px', margin: '10px 10px 0' }}
       />
       {state.query && (
         <div>
