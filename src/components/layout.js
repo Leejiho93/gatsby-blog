@@ -29,7 +29,7 @@ const Layout = ({ location, title, posts, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header" style={{height: '80px', backgroundColor: 'white', position: 'sticky', top: '0', backdropFilter: blur('2px')}}>
+      <header className="global-header" style={{height: '80px', backgroundColor: 'white', position: 'sticky', top: '0', backdropFilter: 'blur(2px)'}}>
         {header}
         <Search data={posts}/>
         {/* <Nav isRootPath={isRootPath} title={title}/> */}
