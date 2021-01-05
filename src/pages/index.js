@@ -5,7 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-function formatDate(date) {
+export function formatDate(date) {
   var d = new Date(date),
       month = '' + (d.getMonth() + 1),
       day = '' + d.getDate(),
@@ -27,7 +27,7 @@ const BlogIndex = ({ data, location }) => {
 
   if (posts.length === 0) {
     return (
-      <Layout location={location} title={siteTitle}>
+      <Layout location={location} title={siteTitle} data={data}>
         <SEO title="All posts" />
         <Bio />
         <p>
@@ -40,7 +40,7 @@ const BlogIndex = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle} search={true} posts={data}>
+    <Layout location={location} title={siteTitle} posts={data}>
       <SEO title="All posts" />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {

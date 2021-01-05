@@ -4,10 +4,13 @@ import React from "react"
 import { Link } from "gatsby"
 import Search  from './searching'
 import { pageQuery } from '../pages/index';
+import Nav from './Nav';
 
-const Layout = ({ location, title, search, posts, children }) => {
+const Layout = ({ location, title, posts, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
+  console.log('layout title: ', title)
+  console.log('layout posts: ', posts)
   let header
 
   if (isRootPath) {
@@ -26,18 +29,14 @@ const Layout = ({ location, title, search, posts, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">
+      <header className="global-header" style={{height: '80px', backgroundColor: 'white', position: 'sticky', top: '0', backdropFilter: blur('2px')}}>
         {header}
-        {search ? <Search data={posts}/> : null}
-        <a rel="noreferrer" target="_blank" href="https://github.com/Leejiho93">
-          <GithubOutlined style={{ fontSize: '35px', color: '#000000'}}/>
-        </a>
+        <Search data={posts}/>
+        {/* <Nav isRootPath={isRootPath} title={title}/> */}
       </header>
       <main className="global-main">{children}</main>
       <footer>
-        {/* © {new Date().getFullYear()} {` `} */}
-        ©
-        <a href="https://www.gatsbyjs.com">easyho</a>
+        © <a href="https://www.gatsbyjs.com">easyho</a>
       </footer>
     </div>
   )
