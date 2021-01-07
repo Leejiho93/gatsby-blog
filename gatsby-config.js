@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `devlog`,
     author: {
-      name: `Lee jiho`,
+      name: `Lee Ji Ho`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
