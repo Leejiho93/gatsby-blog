@@ -31,7 +31,7 @@ const Layout = ({ location, title, posts, search, children }) => {
       <main className="global-main">{children}</main>
       
       <footer>
-        © <a href="https://www.gatsbyjs.com">easyho</a>
+        © <a target="_blank" href="https://github.com/Leejiho93">easyho</a>
       </footer>
     </div>
   )

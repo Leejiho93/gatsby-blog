@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Utterances from '../components/utterances';
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -65,6 +66,7 @@ const BlogPostTemplate = ({ data, location }) => {
           </li>
         </ul>
       </nav>
+      <Utterances repo="Leejiho93/blog-comments" />
     </Layout>
   )
 }
