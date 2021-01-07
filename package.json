@@ -1,14 +1,17 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "gatsby-blog",
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Lee Ji Ho",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "antd": "^4.9.4",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",

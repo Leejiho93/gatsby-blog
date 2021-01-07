@@ -8,6 +8,8 @@ const BlogPostTemplate = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
 
+  console.log('blog-bost data: ', data)
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
