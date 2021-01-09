@@ -31,7 +31,7 @@ const Layout = ({ location, title, posts, search, children }) => {
       <main className="global-main">{children}</main>
       
       <footer>
-        © <a target="_blank" href="https://github.com/Leejiho93">easyho</a>
+        © <a rel="noreferrer" target="_blank" href="https://github.com/Leejiho93">easyho</a>
       </footer>
     </div>
   )

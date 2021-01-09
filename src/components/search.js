@@ -1,8 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import React, { useState} from 'react';
 import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { formatDate } from '../pages/index';
 
 const Search = (data) => {
     const emptyQuery = "";
