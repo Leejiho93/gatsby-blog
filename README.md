@@ -1,4 +1,4 @@
-## [BLOG](https://easyho.tech)
+## [BLOG](https://easyho.tech){:target="_blank"}
 <!-- <hr /> -->
 <br/>
 
