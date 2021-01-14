@@ -1,6 +1,6 @@
-## [BLOG](https://easyho.tech){: target="_blank"}
+## [BLOG](https://easyho.tech)
 
-<!-- <hr /> -->
+
 <br/>
 
 ## 사용한 기술 
