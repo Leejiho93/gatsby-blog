@@ -19,11 +19,7 @@ gatsby new my-gatsby-project https://github.com/gatsbyjs/gatsby-starter-blog
 gatsby devlop
 ```
 
-
-
 <http://localhost:8000/>로 접속하면 아래와 같은 화면을 확인 할 수 있다.
-
-
 
 ![](1.png)
 
@@ -82,21 +78,19 @@ export default Utterances;
 
 <br/>
 
-원하는 위치에 컴포넌트를 추가한
+원하는 위치에 컴포넌트를 추가한다
 
 ```javascript
 <Utterances repo="Leejiho93/blog-comments" />
 ```
 
-
-
 <br/>
 
-## **Netlify** 
+## **Netlify**
 
- [netlify-cms](https://www.netlifycms.org/)는 [github](https://github.com/)기반 콘텐츠 관리 도구로, 마크다운 파일로 콘텐츠를 작성하고 관리해준다.
+ [netlify-cms](https://www.netlifycms.org/)는 [github](https://github.com/)기반 콘텐츠 관리 도구로, 마크다운 파일로 콘텐츠를 작성하고 관리해준다. 
 
- [netlify](https://www.netlify.com/) 클릭 몇번으로 배포부터 무 https 호스팅이 가능하다는 점이 신기하고 편했다
+[ netlify](https://www.netlify.com/)는 클릭 몇번으로 배포부터 무료 https 호스팅이 가능하다는 점이 신기하고 편했다. 
 
 
 
