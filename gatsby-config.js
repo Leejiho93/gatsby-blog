@@ -4,8 +4,8 @@ module.exports = {
     author: {
       name: `Lee Ji Ho`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `devlog`,
+    siteUrl: `https://https://easyho.tech/`,
   },
   plugins: [
     {
