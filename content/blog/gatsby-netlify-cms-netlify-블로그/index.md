@@ -90,9 +90,11 @@ export default Utterances;
 
  [netlify-cms](https://www.netlifycms.org/)는 [github](https://github.com/)기반 콘텐츠 관리 도구로, 마크다운 파일로 콘텐츠를 작성하고 관리해준다. 
 
+
+
+![](netlify-cms.png)
+
 [ netlify](https://www.netlify.com/)는 클릭 몇번으로 배포부터 무료 https 호스팅이 가능하다는 점이 신기하고 편했다. 
-
-
 
 <br/>
 
